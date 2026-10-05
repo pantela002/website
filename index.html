@@ -1,5 +1,5 @@
 <!-- ABOUTME: Personal portfolio site for Uros Pantelic (pantelicu.space) -->
-<!-- ABOUTME: About/experience/projects/education, an interactive Belgrade map, and a gym plan section -->
+<!-- ABOUTME: About/experience/projects/education and an interactive Belgrade map -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,7 +26,6 @@
       <li><a href="#experience">Experience</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#places">Places</a></li>
-      <li><a href="#gym">Gym</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
     <button class="theme-toggle" id="theme-toggle" aria-label="Toggle color theme" title="Toggle light/dark theme">
@@ -202,98 +201,6 @@
     <div class="map-layout">
       <div id="map" class="map reveal" role="application" aria-label="Map of Belgrade with pinned locations"></div>
       <ul class="place-list reveal" id="place-list"><!-- populated by script.js --></ul>
-    </div>
-  </section>
-
-  <!-- GYM -->
-  <section class="container section" id="gym">
-    <h2 class="section-title">Gym — Weekly Split</h2>
-    <p class="section-subtitle">
-      Currently running a 6-day Push / Pull / Legs split, twice through, with Sunday off (usually a run at Ada
-      Ciganlija instead). <a class="guide-link" href="gym.html">See the full guide + a video tutorial for every exercise →</a>
-    </p>
-
-    <div class="gym-grid">
-
-      <article class="gym-card reveal">
-        <header><span class="gym-day">Day 1</span><h3>Push A</h3><span class="gym-focus">Chest · Shoulders · Triceps</span></header>
-        <ul>
-          <li><span>Barbell Bench Press</span><span>4×6–8</span></li>
-          <li><span>Overhead Press</span><span>3×8–10</span></li>
-          <li><span>Incline Dumbbell Press</span><span>3×10</span></li>
-          <li><span>Lateral Raises</span><span>3×12–15</span></li>
-          <li><span>Triceps Pushdown</span><span>3×12–15</span></li>
-          <li><span>Dips</span><span>3×AMRAP</span></li>
-        </ul>
-      </article>
-
-      <article class="gym-card reveal">
-        <header><span class="gym-day">Day 2</span><h3>Pull A</h3><span class="gym-focus">Back · Biceps</span></header>
-        <ul>
-          <li><span>Deadlift</span><span>3×5</span></li>
-          <li><span>Pull-ups / Lat Pulldown</span><span>4×8–10</span></li>
-          <li><span>Barbell Row</span><span>3×8–10</span></li>
-          <li><span>Face Pulls</span><span>3×15</span></li>
-          <li><span>Barbell Curl</span><span>3×10</span></li>
-          <li><span>Hammer Curl</span><span>3×12</span></li>
-        </ul>
-      </article>
-
-      <article class="gym-card reveal">
-        <header><span class="gym-day">Day 3</span><h3>Legs A</h3><span class="gym-focus">Quads · Hamstrings · Calves</span></header>
-        <ul>
-          <li><span>Back Squat</span><span>4×6–8</span></li>
-          <li><span>Romanian Deadlift</span><span>3×8–10</span></li>
-          <li><span>Leg Press</span><span>3×10–12</span></li>
-          <li><span>Leg Curl</span><span>3×12</span></li>
-          <li><span>Calf Raises</span><span>4×15</span></li>
-          <li><span>Plank</span><span>3×45s</span></li>
-        </ul>
-      </article>
-
-      <article class="gym-card reveal">
-        <header><span class="gym-day">Day 4</span><h3>Push B</h3><span class="gym-focus">Chest · Shoulders · Triceps</span></header>
-        <ul>
-          <li><span>Incline Barbell Press</span><span>4×6–8</span></li>
-          <li><span>Dumbbell Shoulder Press</span><span>3×8–10</span></li>
-          <li><span>Cable Fly</span><span>3×12–15</span></li>
-          <li><span>Arnold Press</span><span>3×10</span></li>
-          <li><span>Skull Crushers</span><span>3×12</span></li>
-          <li><span>Cable Lateral Raise</span><span>3×15</span></li>
-        </ul>
-      </article>
-
-      <article class="gym-card reveal">
-        <header><span class="gym-day">Day 5</span><h3>Pull B</h3><span class="gym-focus">Back · Biceps</span></header>
-        <ul>
-          <li><span>Weighted Pull-ups</span><span>4×6–8</span></li>
-          <li><span>Seated Cable Row</span><span>3×10</span></li>
-          <li><span>T-Bar Row</span><span>3×10</span></li>
-          <li><span>Rear Delt Fly</span><span>3×15</span></li>
-          <li><span>Preacher Curl</span><span>3×10</span></li>
-          <li><span>Shrugs</span><span>3×12</span></li>
-        </ul>
-      </article>
-
-      <article class="gym-card reveal">
-        <header><span class="gym-day">Day 6</span><h3>Legs B</h3><span class="gym-focus">Quads · Hamstrings · Calves</span></header>
-        <ul>
-          <li><span>Front Squat</span><span>4×6–8</span></li>
-          <li><span>Walking Lunges</span><span>3×12/leg</span></li>
-          <li><span>Leg Extension</span><span>3×12–15</span></li>
-          <li><span>Seated Leg Curl</span><span>3×12</span></li>
-          <li><span>Standing Calf Raise</span><span>4×15</span></li>
-          <li><span>Hanging Leg Raise</span><span>3×15</span></li>
-        </ul>
-      </article>
-
-      <article class="gym-card gym-card-rest reveal">
-        <header><span class="gym-day">Day 7</span><h3>Rest</h3><span class="gym-focus">Recovery</span></header>
-        <ul>
-          <li><span>Easy run — Ada Ciganlija loop 🏃</span><span>or full rest</span></li>
-        </ul>
-      </article>
-
     </div>
   </section>
 
